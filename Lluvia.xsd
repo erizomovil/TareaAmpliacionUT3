@@ -1,0 +1,38 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Lluvias">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="lluvia" minOccurs="0" maxOccurs="unbounded" type="lluviaType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="lluviaType">
+        <xs:all>
+            <xs:element name="fecha"/>
+            <xs:element name="nombre"/>
+            <xs:element name="provincia"/>
+            <xs:element name="tmin"/>
+            <xs:element name="indicativo" minOccurs="0" maxOccurs="1"></xs:element>
+            <xs:element name="altitud" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="tmed" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="prec" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="horatmin" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="tmax" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="horatmax" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="dir" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="velmedia" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="racha" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="horaracha" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="presMax" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="horaPresMax" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="presMin" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="horaPresMin" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="hrMedia" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="hrMax" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="horaHrMax" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="hrMin" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="horaHrMin" minOccurs="0" maxOccurs="1"/>
+        </xs:all>
+    </xs:complexType>
+</xs:schema>

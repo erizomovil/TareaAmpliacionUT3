@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Lluvia.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<Lluvias>
+    <lluvia>
+        <fecha>2019-04-23</fecha>
+        <nombre>LAS PALMAS DE GRAN CANARIA, PL. DE LA FERIA</nombre>
+        <provincia>LAS PALMAS</provincia>
+        <tmin>44</tmin>
+    </lluvia>
+</Lluvias>
