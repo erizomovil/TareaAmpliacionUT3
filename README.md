@@ -1,6 +1,6 @@
 # Aplication for xml data transmition
 
-.An aplication for saving data from the rain
+An aplication for saving data from the rains
 
 ## Description
 
