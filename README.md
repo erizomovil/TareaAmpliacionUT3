@@ -16,9 +16,14 @@ The information transmitted between the app and the API includes various data po
 
 ## Screenshots
 
-![Screenshot 1](/img/screenshot1.png)
-![Screenshot 2](/img/screenshot2.png)
-![Screenshot 2](/img/screenshot3.png)
+normal xml:
+![Screenshot 1](/img/rainXML.png)
+
+OpenData xml:
+![Screenshot 2](/img/OpendataRain.png)
+
+xsd screenshot:
+![Screenshot 2](/img/rainxsd.png)
 
 ## Tools and Websites Utilized
 
