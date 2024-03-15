@@ -1,37 +1,28 @@
-# Foobar
+# Aplication for xml data transmition
 
-Foobar is a Python library for dealing with word pluralization.
+.An aplication for saving data from the rain
 
-## Installation
+## Description
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+This project is an app developed using visual studio code. The app communicates with an API to fetch and display data in various visual formats.
 
-```bash
-pip install foobar
-```
+## App and API Description
 
-## Usage
+The app provides a user-friendly interface to interact with the data fetched from the API. The API serves as the backend, supplying the necessary data to the app for visualization.
 
-```python
-import foobar
+## Data Transmission
 
-# returns 'words'
-foobar.pluralize('word')
+The information transmitted between the app and the API includes various data points related to the visualization requirements. These could include but are not limited to statistical data, categorical data, and metadata necessary for generating the visualizations.
 
-# returns 'geese'
-foobar.pluralize('goose')
+## Screenshots
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+![Screenshot 1](/screenshots/screenshot1.png)
+![Screenshot 2](/screenshots/screenshot2.png)
 
-## Contributing
+## Tools and Websites Utilized
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+1. Ies el Rincon - [https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/](https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/)
+2. Visual Studio Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
+3. GitHub - [https://github.com/](https://github.com/)
+4. Opendata - [https://opendata.aemet.es/centrodedescargas/inicio](https://opendata.aemet.es/centrodedescargas/inicio)
+5. XML Validator - [https://www.xmlvalidation.com/](https://www.xmlvalidation.com/)
