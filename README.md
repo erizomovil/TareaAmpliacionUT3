@@ -16,8 +16,9 @@ The information transmitted between the app and the API includes various data po
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/screenshot1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
+![Screenshot 1](/img/screenshot1.png)
+![Screenshot 2](/img/screenshot2.png)
+![Screenshot 2](/img/screenshot3.png)
 
 ## Tools and Websites Utilized
 
